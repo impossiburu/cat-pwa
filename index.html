@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+</head>
+<style>
+    .width-device {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    button {
+        display: block;
+        width: 200px;
+        height: 40px;
+        margin: 5px auto;
+        border: none;
+        font-size: 16px;
+        border-radius: 5px;
+        background-color: orange;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .pet_img {
+        display: block;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        
+    }
+    p {
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+</style>
+<body>
+    <div class="width-device">
+        <img src="good.png" class="pet_img" alt="cat">
+        <p>Сытость: <span class="food">100</span></p>
+        <button type="button" class="feed">Кормить</button>
+        <button type="button" onclick="location.reload()">Воскресить</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
